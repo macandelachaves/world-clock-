@@ -13,42 +13,38 @@
     <div class="container">
       <h1>World Clock</h1>
 
-      <div class="countries-selection">
-        <select name="countries" id="countries">
-          <option value="">Choose a city</option>
-          <option value="buenos-aires">Buenos Aires 🇦🇷</option>
-          <option value="lisboa">Lisboa 🇵🇹</option>
-          <option value="dublin">Dublin 🇮🇪</option>
-        </select>
-      </div>
-      <div>
-        <div class="city">
+      <select id="countries">
+        <option value="">Choose a city</option>
+        <option value="Brazil/East">Sao Paulo</option>
+        <option value="Europe/London">Londres</option>
+        <option value="Canada/Eastern">Toronto</option>
+      </select>
+      <div id="cities">
+        <div class="city" id="buenos-aires">
           <div>
             <h2>Buenos Aires 🇦🇷</h2>
-            <div class="date">August 15th, 2024</div>
+            <div class="date"></div>
           </div>
-          <div class="time">14:59:15 <small>PM</small></div>
+          <div class="time"></div>
         </div>
 
-        <div class="city">
+        <div class="city" id="lisboa">
           <div>
-            <h2>Liboa 🇵🇹</h2>
-            <div class="date">August 15th, 2024</div>
+            <h2>Lisboa 🇵🇹</h2>
+            <div class="date"></div>
           </div>
-          <div class="time">14:59:15 <small>PM</small></div>
+          <div class="time"></div>
         </div>
       </div>
-      <footer>
-        This project was made with ♥️ by
-        <strong class="my-name"> Candela Chaves</strong> and it's
-        <a
-          href="https://github.com/macandelachaves/world-clock-"
-          target="_blank"
-        >
-          opened source in GitHub</a
-        >
-      </footer>
+
       <script src="src/index.js"></script>
     </div>
+    <footer>
+      This project was made with ♥️ by
+      <strong class="my-name"> Candela Chaves</strong> and it's
+      <a href="https://github.com/macandelachaves/world-clock-" target="_blank">
+        opened source in GitHub</a
+      >
+    </footer>
   </body>
 </html>
