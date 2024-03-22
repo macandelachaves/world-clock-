@@ -44,8 +44,8 @@ function updateCity(event) {
             "HH:mm:ss"
           )} <small>${cityCurrentMoment.format("A")}</small></div>
         </div>
+         <a href="index.html">Initial Page</a>
         `;
-  <a href="index.html">Initial Page</a>;
 }
 
 let citySelected = document.querySelector("#countries");

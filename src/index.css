@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0px auto;
-  font-size: 23px;
+  font-size: 18px;
   padding: 30px 0;
   border-bottom: 1px dashed #d3d6db;
 }
